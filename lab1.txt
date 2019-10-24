@@ -1,0 +1,7 @@
+(load "lab1.lsp")
+(getelems '(T (U U1 U2) (U4 U6 U8)) '(4 6 (7 8 9)) '(78 89 90 67 45))
+(getelemsnew '(T (U U1 U2) (U4 U6 U8)) '(4 6 (7 8 9)) '(78 89 90 67 45))
+(getelemsnewnew 2 3 4 '(T (U U1 U2) (U4 U6 U8)) '(4 6 (7 8 9)) '(78 89 90 67 45))
+(check2 8)
+(check2 5)
+(check2 1)
